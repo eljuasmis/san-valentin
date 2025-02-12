@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Quieres ser mi San valentín?</title>
+    <link rel="icon" type="image/png" href="images/gato_flor.png">
+    <link rel="stylesheet" href="peticion.css">
+    <script src="peticion.js"></script>
+</head>
+<body>
+    <div class="container-principal">
+        <div class="contenido-centrado">
+            <p class="pregunta">💙¿Quieres ser mi San valentín?💙</p>
+            <img src="images/beso.gif" alt="gato_corazones">
+            <div class="container">
+                <button id="button_yes" onclick="yes()">Sí</button>
+                <button id="button_no" onclick="no()">No</button>
+            </div>
+        </div>
+    </div>
+    <div class="mensaje-container" id="mensaje-container">
+        <p class="mensaje" id="mensaje"></p>
+        <input type="button" value="Cerrar" onclick="cerrar()">
+    </div>
+</body>
+</html>
